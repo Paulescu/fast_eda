@@ -23,20 +23,14 @@ def eda(
     file_path = Path(DATA_DIR) / file_name
     data = pd.read_csv(file_path)
 
+    # feature engineering
     target_data = data[target].tolist()
-
-    # add features
     data = add_features(data, model_name=model_name)
-
-    # keep target
     data[target] = target_data
 
-    stop()
-    data.to_csv(DATA_DIR / f'processed_{file_name}.csv')
-
+    # generate Sweetviz report
     my_report = sv.analyze(data, target_feat=target)
-
-    output_html = get_project_root() / 'viz' / f'sweetviz_{file_name}.html'
+    output_html = VIZ_DIR / f'{file_name}.html'
     my_report.show_html(output_html)
 
 

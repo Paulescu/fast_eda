@@ -7,6 +7,7 @@ authors = ["Pau <plabartabajo@gmail.com>"]
 [tool.poetry.dependencies]
 python = "^3.8"
 sweetviz = "^2.1.3"
+jupyter = "^1.0.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
