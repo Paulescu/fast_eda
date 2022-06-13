@@ -50,5 +50,3 @@ If you want to learn more about real-world ML topics and become a better data sc
 👉 [Subscribe](http://datamachines.xyz/subscribe) to the datamachines newsletter.
 
 👉 Follow me on [Twitter](https://twitter.com/paulabartabajo_) and [LinkedIn](https://www.linkedin.com/in/pau-labarta-bajo-4432074b/).
-
-<iframe src="https://paulabartabajo.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
