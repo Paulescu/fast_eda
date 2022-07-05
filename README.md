@@ -26,7 +26,7 @@ library to do data exploration at the speed of light.
 
 I also invite you to read the original article I published on my site:
 
-[📝 Fast And Easy Data Exploration For Machine Learning](http://datamachines.xyz/2022/06/12/fast-and-easy-data-exploration-for-machine-learning/)
+[📝 Fast And Easy Data Exploration For Machine Learning](https://datamachines.xyz/2022/06/12/fast-and-easy-data-exploration-for-machine-learning/)
 
 
 ## Quick setup
